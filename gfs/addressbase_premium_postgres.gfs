@@ -7,7 +7,8 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>logicalStatus</Name>
@@ -27,7 +28,8 @@
         <PropertyDefn>
             <Name>parentUPRN</Name>
             <ElementPath>parentUPRN</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>rpc</Name>
@@ -87,7 +89,8 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>classKey</Name>
@@ -132,7 +135,8 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>rmUDPRN</Name>
@@ -209,27 +213,27 @@
         </PropertyDefn>
         <PropertyDefn>
             <Name>welshDependentThoroughfareName</Name>
-            <ElementPath>dependentThoroughfareName</ElementPath>
+            <ElementPath>welshDependentThoroughfareName</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>welshThoroughfareName</Name>
-            <ElementPath>thoroughfareName</ElementPath>
+            <ElementPath>welshThoroughfareName</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>welshDoubleDependentLocality</Name>
-            <ElementPath>doubleDependentLocality</ElementPath>
+            <ElementPath>welshDoubleDependentLocality</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>welshDependentLocality</Name>
-            <ElementPath>dependentLocality</ElementPath>
+            <ElementPath>welshDependentLocality</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>welshPostTown</Name>
-            <ElementPath>postTown</ElementPath>
+            <ElementPath>welshPostTown</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
@@ -265,7 +269,8 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>lpiKey</Name>
@@ -386,7 +391,8 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>orgKey</Name>
@@ -426,7 +432,8 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Real</Type>
+            <Type>Integer</Type>
+            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>xRefKey</Name>
