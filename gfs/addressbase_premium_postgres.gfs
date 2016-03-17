@@ -28,7 +28,7 @@
         <PropertyDefn>
             <Name>parentUPRN</Name>
             <ElementPath>parentUPRN</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
