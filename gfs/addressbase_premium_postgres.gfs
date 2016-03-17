@@ -7,7 +7,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
@@ -89,7 +89,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
@@ -135,7 +135,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
@@ -269,7 +269,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
@@ -391,7 +391,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
@@ -432,7 +432,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Integer</Type>
+            <Type>Long</Type>
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
