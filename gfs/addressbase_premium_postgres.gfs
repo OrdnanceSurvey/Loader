@@ -7,8 +7,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Long</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>logicalStatus</Name>
@@ -28,8 +27,7 @@
         <PropertyDefn>
             <Name>parentUPRN</Name>
             <ElementPath>parentUPRN</ElementPath>
-            <Type>Integer</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>rpc</Name>
@@ -89,8 +87,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Long</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>classKey</Name>
@@ -135,8 +132,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Long</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>rmUDPRN</Name>
@@ -269,8 +265,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Long</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>lpiKey</Name>
@@ -391,8 +386,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Long</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>orgKey</Name>
@@ -432,8 +426,7 @@
         <PropertyDefn>
             <Name>uprn</Name>
             <ElementPath>uprn</ElementPath>
-            <Type>Long</Type>
-            <Width>12</Width>
+            <Type>Real</Type>
         </PropertyDefn>
         <PropertyDefn>
             <Name>xRefKey</Name>
