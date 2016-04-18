@@ -2,6 +2,7 @@
     <GMLFeatureClass>
         <Name>BasicLandPropertyUnit</Name>
         <ElementPath>BasicLandPropertyUnit</ElementPath>
+        <GeometryElementPath>position</GeometryElementPath>
         <GeometryType>1</GeometryType>
         <SRSName>urn:ogc:def:crs:EPSG::27700</SRSName>
         <PropertyDefn>
@@ -42,9 +43,16 @@
             <Type>Integer</Type>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>postalAddressable</Name>
-            <ElementPath>postalAddressable</ElementPath>
+            <Name>country</Name>
+            <ElementPath>country</ElementPath>
             <Type>String</Type>
+            <Width>1</Width>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>addressbasePostal</Name>
+            <ElementPath>addressbasePostal</ElementPath>
+            <Type>String</Type>
+            <Width>1</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>postcodeLocator</Name>
@@ -127,6 +135,12 @@
             <ElementPath>lastUpdateDate</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
+        <PropertyDefn>
+            <Name>endDate</Name>
+            <ElementPath>endDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
+        </PropertyDefn>
     </GMLFeatureClass>
     <GMLFeatureClass>
         <Name>DeliveryPointAddress</Name>
@@ -139,16 +153,9 @@
             <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>rmUDPRN</Name>
-            <ElementPath>rmUDPRN</ElementPath>
+            <Name>udprn</Name>
+            <ElementPath>udprn</ElementPath>
             <Type>Integer</Type>
-            <Width>8</Width>
-        </PropertyDefn>
-        <PropertyDefn>
-            <Name>parentAddressableUPRN</Name>
-            <ElementPath>parentAddressableUPRN</ElementPath>
-            <Type>Real</Type>
-            <Width>12</Width>
         </PropertyDefn>
         <PropertyDefn>
             <Name>organisationName</Name>
@@ -177,13 +184,13 @@
             <Width>4</Width>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>dependentThoroughfareName</Name>
-            <ElementPath>dependentThoroughfareName</ElementPath>
+            <Name>dependentThoroughfare</Name>
+            <ElementPath>dependentThoroughfare</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>thoroughfareName</Name>
-            <ElementPath>thoroughfareName</ElementPath>
+            <Name>thoroughfare</Name>
+            <ElementPath>thoroughfare</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
@@ -212,13 +219,13 @@
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>welshDependentThoroughfareName</Name>
-            <ElementPath>welshDependentThoroughfareName</ElementPath>
+            <Name>welshDependentThoroughfare</Name>
+            <ElementPath>welshDependentThoroughfare</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>welshThoroughfareName</Name>
-            <ElementPath>welshThoroughfareName</ElementPath>
+            <Name>welshThoroughfare</Name>
+            <ElementPath>welshThoroughfare</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
@@ -239,6 +246,11 @@
         <PropertyDefn>
             <Name>poBoxNumber</Name>
             <ElementPath>poBoxNumber</ElementPath>
+            <Type>String</Type>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>deliveryPointSuffix</Name>
+            <ElementPath>deliveryPointSuffix</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
@@ -383,6 +395,11 @@
             <ElementPath>lang</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
+        <PropertyDefn>
+            <Name>endDate</Name>
+            <ElementPath>endDate</ElementPath>
+            <Type>String</Type>
+        </PropertyDefn>
     </GMLFeatureClass>
     <GMLFeatureClass>
         <Name>Organisation</Name>
@@ -423,6 +440,12 @@
             <Name>lastUpdateDate</Name>
             <ElementPath>lastUpdateDate</ElementPath>
             <Type>String</Type>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>endDate</Name>
+            <ElementPath>endDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
         </PropertyDefn>
     </GMLFeatureClass>
     <GMLFeatureClass>
@@ -470,6 +493,12 @@
             <Name>lastUpdateDate</Name>
             <ElementPath>lastUpdateDate</ElementPath>
             <Type>String</Type>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>endDate</Name>
+            <ElementPath>endDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
         </PropertyDefn>
     </GMLFeatureClass>
     <GMLFeatureClass>
@@ -562,8 +591,8 @@
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
-            <Name>localityName</Name>
-            <ElementPath>localityName</ElementPath>
+            <Name>locality</Name>
+            <ElementPath>locality</ElementPath>
             <Type>String</Type>
         </PropertyDefn>
         <PropertyDefn>
@@ -580,6 +609,37 @@
             <Name>lang</Name>
             <ElementPath>lang</ElementPath>
             <Type>String</Type>
+            <Width>2</Width>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>changeType</Name>
+            <ElementPath>changeType</ElementPath>
+            <Type>String</Type>
+            <Width>1</Width>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>startDate</Name>
+            <ElementPath>startDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>entryDate</Name>
+            <ElementPath>entryDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>lastUpdateDate</Name>
+            <ElementPath>lastUpdateDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
+        </PropertyDefn>
+        <PropertyDefn>
+            <Name>endDate</Name>
+            <ElementPath>endDate</ElementPath>
+            <Type>String</Type>
+            <Width>10</Width>
         </PropertyDefn>
     </GMLFeatureClass>
 </GMLFeatureClassList>
